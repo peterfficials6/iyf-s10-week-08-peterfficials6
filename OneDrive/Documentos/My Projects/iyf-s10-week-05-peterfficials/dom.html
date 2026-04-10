@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DOM Practice</title>
+    <style>
+        input.error { border: 2px solid red; }
+        input.success { border: 2px solid green; }
+        .error-msg { color: red; font-size: 12px; }
+        .success-msg { 
+          color: green; 
+          font-size: 16px; 
+          padding: 10px;
+          background: #ccffcc;
+          border-radius: 5px;
+        }
+         .highlight { background-color: yellow; }
+         .container { padding: 20px; border: 1px solid #ccc; }
+         .grandparent { padding: 30px; background: #ffcccc; }
+         .parent-div { padding: 30px; background: #ccffcc; }
+         .child-div { padding: 30px; background: #ccccff; }
+         .highlight { background-color: yellow; }
+         .container { padding: 20px; border: 1px solid #ccc; }
+    </style>
+</head>
+<body>    
+    <header id="main-header">
+        <h1>DOM Practice</h1>
+        <nav>
+            <ul class="nav-list">
+                <li><a href="#" class="nav-link">Home</a></li>
+                <li><a href="#" class="nav-link">About</a></li>
+                <li><a href="#" class="nav-link">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main class="container">
+        <article>
+            <h2 class="title">Article Title</h2>
+            <p class="content">This is the first paragraph.</p>
+            <p class="content">This is the second paragraph.</p>
+        </article>
+        
+        <section>
+            <h2>Form Section</h2>
+            <form id="contact-form">
+                <input type="text" id="name" placeholder="Name">
+                <input type="text" id="email" placeholder="Email">
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2026</p>
+    </footer>
+    <!-- Bubbling Example -->
+  <div id="grandparent" class="grandparent">
+    Grandparent
+    <div id="parent" class="parent-div">
+        Parent
+        <div id="child" class="child-div">
+            Child - Click Me!
+        </div>
+    </div>
+  </div>
+  <script src="dom.js"></script>
+</body>
+</html>

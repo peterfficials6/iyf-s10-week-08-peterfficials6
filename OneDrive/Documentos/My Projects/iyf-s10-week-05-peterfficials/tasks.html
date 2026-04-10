@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Task List</title>
+    <style>
+        body { font-family: Arial, sans-serif; padding: 20px; }
+        .container { max-width: 500px; margin: 0 auto; }
+        input { padding: 10px; width: 70%; font-size: 16px; }
+        button { padding: 10px 15px; font-size: 16px; cursor: pointer; }
+        ul { list-style: none; padding: 0; }
+        li { 
+            padding: 10px; 
+            margin: 5px 0; 
+            background: #eee; 
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .completed { 
+            text-decoration: line-through; 
+            background: #ccffcc;
+            color: #666;
+        }
+        .delete-btn {
+            background: red;
+            color: white;
+            border: none;
+            padding: 5px 10px;
+            cursor: pointer;
+            border-radius: 3px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Task List</h1>
+
+        <!-- Add task input -->
+        <div>
+            <input type="text" id="task-input" placeholder="Add a new task...">
+            <button id="add-btn">Add</button>
+        </div>
+
+        <!-- Task list -->
+        <ul id="task-list"></ul>
+    </div>
+
+    <script src="tasks.js"></script>
+</body>
+</html>
