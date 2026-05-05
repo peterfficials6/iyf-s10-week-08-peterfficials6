@@ -2,7 +2,7 @@
 
 A modern React application built with Vite featuring a community platform with posts, user interactions, and responsive design.
 
-## 🚀 Features
+##  Features
 
 - **Post Management**: Create, read, update, and delete posts
 - **User Interactions**: Like posts and engage with content
@@ -10,7 +10,7 @@ A modern React application built with Vite featuring a community platform with p
 - **Responsive Design**: Mobile-first approach with modern CSS
 - **State Management**: React hooks for local state management
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 src/
@@ -42,14 +42,14 @@ src/
 └── index.css                  # Global styles
 ```
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 - **React 19** - UI library with modern hooks
 - **Vite** - Fast build tool and dev server
 - **CSS3** - Modern styling with responsive design
 - **ESLint** - Code linting and quality assurance
 
-## 📦 Installation
+##  Installation
 
 1. Clone the repository:
 ```bash
@@ -66,14 +66,14 @@ cd iyf-s10-week-08-peterfficials6
 npm install
 ```
 
-## 🎯 Available Scripts
+##  Available Scripts
 
 - `npm run dev` - Start development server
 - `npm run build` - Build for production
 - `npm run preview` - Preview production build
 - `npm run lint` - Run ESLint
 
-## 🏃‍♂️ Getting Started
+##  Getting Started
 
 1. Start the development server:
 ```bash
@@ -89,7 +89,7 @@ npm run dev
    - Delete posts
    - View statistics
 
-## 🎨 Component Overview
+##  Component Overview
 
 ### Layout Components
 - **Header**: Navigation and branding
@@ -123,14 +123,14 @@ npm run dev
 - Update `index.css` for global styles
 - Follow BEM naming conventions for CSS classes
 
-## 📱 Responsive Design
+##  Responsive Design
 
 The application is built with a mobile-first approach:
 - Mobile: < 768px
 - Tablet: 768px - 1024px  
 - Desktop: > 1024px
 
-## 🤝 Contributing
+##  Contributing
 
 1. Fork the repository
 2. Create a feature branch
@@ -138,11 +138,11 @@ The application is built with a mobile-first approach:
 4. Add tests if applicable
 5. Submit a pull request
 
-## 📄 License
+##  License
 
 This project is open source and available under the [MIT License](LICENSE).
 
-## 🔗 Links
+##  Links
 
 - **Live Demo**: [Deployed Application](https://your-app-url.com)
 - **Repository**: [GitHub Repository](https://github.com/peterfficials6/iyf-s10-week-08-peterfficials6)
@@ -150,4 +150,4 @@ This project is open source and available under the [MIT License](LICENSE).
 
 ---
 
-Built with ❤️ using React + Vite
+Built with love using React + Vite
